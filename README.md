@@ -31,8 +31,8 @@
 
 | Behavior        | Input           | Outcome  |
 | ------------- |:-------------:| -----:|
-| Do you have an account | Yes/No : Manasseh <br/> Password : Manasseh | An account is created or not. 
-| Create an account | User Name : Manasseh <br/> Password : Manasseh | An account is created |
+| Do you have an account | Yes/No : Louise  <br/> Password : Louise | An account is created or not. 
+| Create an account | User Name : Louise <br/> Password : Louise | An account is created |
 | Display account names | N/A | Display a list of user names for Password Locker accounts | 
 | Display a specific users credentials | N/A | List of the user's credentials | 
 | Log out | N/A | Log out of Password Locker account |
@@ -45,11 +45,6 @@
 > * del - Delete a profile
 > * logout - Logout of session
 > * ex - exit of app
-
-## Known Bugs
->The app cannot store users.
->The app cannot delete a profile
->***Incase of any more bugs you can reach ot to me for @manassehbundi2017@gmail.com.Also for ideas on improving on the app and collaboration too!
 
 ## Licence
 > MIT License
