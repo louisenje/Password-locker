@@ -56,7 +56,18 @@ class TestUser(unittest.TestCase):
             self.assertEqual(len(User.user_list),1)
 
 # **********************************Fifth test to find a user from user list...****************************************************
-    
+    def test_find_contact_by_number(self):
+        '''
+        test to check if we can find a contact by phone number and display information
+        '''
+
+        self.new_user.save_user()
+        test_user = User("Loui","123") # new contact
+        test_user.save_user()
+
+        found_user = User.find_by_username("Loui")
+
+        self.assertEqual(found_user.username,test_user.username)
 #  **********************************Sixth test to check if a usernmae that is been passed actually exists in the list....****************************************************
     
 
