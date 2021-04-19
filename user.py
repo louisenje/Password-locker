@@ -65,3 +65,16 @@ class User:
                 return False
         else:
             return False
+
+    @classmethod
+    def confirm_new(cls, userName):
+        """
+        confirm_user method that checks if a password matches a username
+        """
+        for User in cls.user_list:
+            if User.username == True:
+                return True
+            else:
+                return False
+        else:
+            return False
