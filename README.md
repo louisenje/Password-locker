@@ -31,9 +31,9 @@
 
 | Behavior        | Input           | Outcome  |
 | ------------- |:-------------:| -----:|
-| Do you have an account | Yes/No : No  <br/> Password  | An account is created or not. 
+| Do you have an account | Yes/No : No  <br/> password | An account is created or not. 
 | Create an account | User Name : ### <br/> Password : ### | An account is created |
-| Display account names | N/A | Display a list of user names for Password Locker accounts | 
+| Display account names | N/A | Display a list of user names for Password-Locker accounts | 
 | Display a specific users credentials | N/A | List of the user's credentials | 
 | Log out | N/A | Log out of Password Locker account |
 
