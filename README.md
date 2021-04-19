@@ -31,8 +31,8 @@
 
 | Behavior        | Input           | Outcome  |
 | ------------- |:-------------:| -----:|
-| Do you have an account | Yes/No : Louise  <br/> Password : Louise | An account is created or not. 
-| Create an account | User Name : Louise <br/> Password : Louise | An account is created |
+| Do you have an account | Yes/No : No  <br/> Password  | An account is created or not. 
+| Create an account | User Name : ### <br/> Password : ### | An account is created |
 | Display account names | N/A | Display a list of user names for Password Locker accounts | 
 | Display a specific users credentials | N/A | List of the user's credentials | 
 | Log out | N/A | Log out of Password Locker account |
@@ -49,7 +49,7 @@
 ## Licence
 > MIT License
 
-> Copyright (c) 2020**louise manyara**
+> Copyright (c) 2021**louise manyara**
 
 > Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
