@@ -13,6 +13,13 @@ class TestUSer (unittest.TestCase):
         '''
         self.new_app=Credential("Instagram","njerimanyara","louisenje@gmail.com","password")
         
+    def tearDown (self):
+        """
+        tearDown method that does clean up after each test case has run.
+        """
+        Credential.app_list=[]
+    
+
  # **********************************First test to check if the app credential details are being instantiated properly****************************************************
     def test_init(self):
         """
