@@ -69,7 +69,16 @@ class TestUser(unittest.TestCase):
 
         self.assertEqual(found_user.username,test_user.username)
 #  **********************************Sixth test to check if a usernmae that is been passed actually exists in the list....****************************************************
-    
+    def test_contact_exists(self):
+        '''
+        test to check if we can return a Boolean  if we cannot find the contact.
+        '''
+        self.new_user.save_user()
+        test_user=User("Loui",'123')
+        test_user.save_user()
+
+        Username_exists=User.Username_exist("Loui")
+        self.assertTrue(Username_exists)
 
 
 if __name__ == '__main__':
